@@ -43,6 +43,20 @@ sudo nmap -O 192.168.x.xxx
 * 192.168.0.xxx (Windows Host)
 * 192.168.0.xxx (Kali Linux Scanner)
 
+## Screenshots
+
+### IP Address Identification
+![IP Address](Screenshot_2.png)
+
+### Host Discovery
+![Host Discovery](Screenshot_3.png)
+
+### Service Detection
+![Service Detection](Screenshot_4.png)
+
+### Operating System Detection
+![OS Detection](Screenshot_5.png)
+
 ### Open Ports and Services
 
 | Port   | State | Service | Version            |
