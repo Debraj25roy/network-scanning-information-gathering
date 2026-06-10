@@ -21,27 +21,27 @@ ip addr
 
 A ping sweep was performed to identify active hosts on the network.
 
-nmap -sn 192.168.0.0/24
+nmap -sn 192.168.x.x/24
 
 ### 3. Service Version Detection
 
 A detailed scan was conducted on the target host.
 
-nmap -sV 192.168.0.102
+nmap -sV 192.168.x.xxx
 
 ### 4. Operating System Detection
 
 OS fingerprinting was performed using:
 
-sudo nmap -O 192.168.0.102
+sudo nmap -O 192.168.x.xxx
 
 ## Findings
 
 ### Active Hosts
 
-* 192.168.0.1 (TP-Link Router)
-* 192.168.0.102 (Windows Host)
-* 192.168.0.108 (Kali Linux Scanner)
+* 192.168.0.xxx (TP-Link Router)
+* 192.168.0.xxx (Windows Host)
+* 192.168.0.xxx (Kali Linux Scanner)
 
 ### Open Ports and Services
 
