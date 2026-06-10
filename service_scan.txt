@@ -1,0 +1,11 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-06-07 22:29 EDT
+Nmap scan report for 192.168.0.102
+Host is up (0.039s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+MAC Address: 8C:C6:81:2D:80:DE (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 32.05 seconds
